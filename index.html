@@ -31,13 +31,121 @@
             extend: {
             colors: {
               clifford: '#da373d',
+              'text-light': '#707070',
+              'color-red': '#B68C5A',
           }
         }
       }
     }
   </script>
 </head>
-<body>
+<body class="poppins-font">
+    <header class="md:container mx-auto mb-14">
+
+        <!-- navbar section -->
+        <nav class="py-10">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <img src="./images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-text-light text-base">Home</a></li>
+                    <li>
+                      <a class="text-text-light text-base">Services<ion-icon name="chevron-forward-outline" class="text-2xl"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a class="text-text-light text-base">Cases<ion-icon name="chevron-forward-outline" class="text-2xl"></ion-icon></a>
+                      </li>
+                      <li>
+                        <a class="text-text-light text-base">Blogs<ion-icon name="chevron-forward-outline" class="text-2xl"></ion-icon></a>
+                      </li>
+                      <li>
+                        <a class="text-text-light text-base">Contact Us<ion-icon name="chevron-forward-outline" class="text-2xl"></ion-icon></a>
+                      </li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-color-red font-semibold rounded-lg text-white">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+
+        <!-- hero section -->
+        <div class="hero py-24"
+        style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-3xl">
+            <h1 class="text-title-font mb-5 text-7xl font-extrabold text-white">We Provide Effective <br> Legal Solutions</h1>
+            <p class="mb-5 text-white">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+            <div class="flex gap-3 flex-col md:flex-row">
+              <input type="text" placeholder="Search Your Services" class="py-3 pl-4 rounded-lg w-full">
+              <button class="btn bg-color-red text-white rounded-lg border-none">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <!-- Legal Practice Section -->
+         <section class="md:container mx-auto px-3 mb-14">
+            <div class="text-center">
+                <h2 class="text-title-font text-4xl font-extrabold">The Legal Practice Area</h2>
+                <p class="max-w-xl text-text-light mx-auto my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+
+            <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
+
+                <div class="text-center p-14 md:border md:border-t-0 md:border-x-0 md:border-b-gray-200">
+                    <img src="./images/business.png" class="mb-5 mx-auto">
+                    <h4 class="text-title-font text-3xl font-extrabold">Business Law</h4>
+                    <p class="text-text-light my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <a><ion-icon name="arrow-forward-circle" class="text-color-red text-4xl"></ion-icon></a>
+                </div>
+
+                <div class="text-center p-14 bg-gradient-to-b from-[#E7E7E7] to-gray-50 border border-gray-200">
+                    <img src="./images/business.png" class="mb-5 mx-auto">
+                    <h4 class="text-title-font text-3xl font-extrabold">Business Law</h4>
+                    <p class="text-text-light my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <a><ion-icon name="arrow-forward-circle" class="text-color-red text-4xl"></ion-icon></a>
+                </div>
+
+                <div class="text-center p-14 md:border md:border-t-0 md:border-x-0 md:border-b-gray-200">
+                    <img src="./images/business.png" class="mb-5 mx-auto">
+                    <h4 class="text-title-font text-3xl font-extrabold">Business Law</h4>
+                    <p class="text-text-light my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <a><ion-icon name="arrow-forward-circle" class="text-color-red text-4xl"></ion-icon></a>
+                </div>
+
+                <div class="text-center p-14">
+                    <img src="./images/business.png" class="mb-5 mx-auto">
+                    <h4 class="text-title-font text-3xl font-extrabold">Business Law</h4>
+                    <p class="text-text-light my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <a><ion-icon name="arrow-forward-circle" class="text-color-red text-4xl"></ion-icon></a>
+                </div>
+
+                <div class="text-center p-14 md:border md:border-y-0 md:border-x-gray-200">
+                    <img src="./images/business.png" class="mb-5 mx-auto">
+                    <h4 class="text-title-font text-3xl font-extrabold">Business Law</h4>
+                    <p class="text-text-light my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <a><ion-icon name="arrow-forward-circle" class="text-color-red text-4xl"></ion-icon></a>
+                </div>
+
+                <div class="text-center px-10 py-7">
+                    <img src="./images/business.png" class="mb-5 mx-auto">
+                    <h4 class="text-title-font text-3xl font-extrabold">Business Law</h4>
+                    <p class="text-text-light my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <a><ion-icon name="arrow-forward-circle" class="text-color-red text-4xl"></ion-icon></a>
+                </div>
+
+            </div>
+
+         </section>
+    </main>
    
     
     <!-- cdn fon icon -->
